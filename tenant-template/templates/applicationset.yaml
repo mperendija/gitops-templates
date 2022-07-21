@@ -25,7 +25,7 @@ spec:
           selfHeal: true
       source:
         # source repo, in this example both repositories are the same
-        repoURL: https://github.com/stufegdzic/argo-submodule.git
+        repoURL: https://github.com/mperendija/gitops-templates.git
         targetRevision: main
         # path to read manifests from, here it's the full path not only the name of the directory
         path: 'project-template/{{ print "{{type}}" }}'
